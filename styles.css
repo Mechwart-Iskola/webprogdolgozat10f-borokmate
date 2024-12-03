@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  background-image: url(hatter.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -26,6 +28,28 @@ body {
   background-color: rgba(227, 225, 233, 0.8);
 }
 
+thead{
+  background-color: green;
+  color: white;
+}
+
+td, th{
+  border: black solid 2px;
+  height: 35px;
+  width: auto;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+table{
+  background-color: rgba(227, 225, 233, 0.8);
+  text-align: center;
+  border-collapse: collapse;
+  float: left;
+  margin-right: 20px;
+}
+
 .frame img {
   width: 499px;
   position: relative;
@@ -42,6 +66,9 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
 }
 
 table,
@@ -52,4 +79,18 @@ table,
 a:link,
 a:visited {
   color: blue;
+}
+
+p{
+  text-align: justify;
+  text-indent: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: yellow;
 }
